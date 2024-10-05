@@ -243,7 +243,7 @@ def handle_bgmi(message):
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
                 full_command = f"./bgmi {target} {port} {time} 200"
                 subprocess.run(full_command, shell=True)
-                response = f"BGMI Attack Finished. Target: {target} Port: {port} Port: {time}"
+                response = f"Game Attack Finished. Target: {target} Port: {port} Port: {time}"
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
@@ -283,9 +283,11 @@ def show_help(message):
 
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
-
-Buy From :- @Itzz_AloneX
-Official Channel :- https://t.me/+ymUhqQdlRiVjOTQ1
+════════════════════
+🤖𝐓𝐫𝐲 𝐓𝐨 𝐑𝐮𝐧 𝐓𝐡𝐢𝐬 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 : /help
+════════════════════
+[ 🖇️ 𝐀𝐝𝐦𝐢𝐧 𝐛𝐲 ~ @Itzz_AloneX 🖇️ ]
+[ 🖇️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ~ @AloneXModz 🖇️ ]
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -351,17 +353,41 @@ def welcome_rules(message):
 @bot.message_handler(commands=['plan'])
 def welcome_plan(message):
     user_name = message.from_user.first_name
-    response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos !!:
+    response = f'''𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐀𝐥𝐨𝐧𝐞 𝐃𝐝𝐨𝐬, {user_name}!
+════════════════════
+𝐃-𝐃𝐎𝐒 𝐃𝐢𝐬𝐭𝐫𝐢𝐛𝐭𝐞𝐝 𝐃𝐞𝐧𝐢𝐚𝐥-𝐨𝐟-𝐬𝐞𝐫𝐯𝐢𝐜𝐞
+════════════════════
+ 𝐈𝐟 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐦𝐚𝐤𝐞 𝐲𝐨𝐮𝐫 𝐨𝐰𝐧𝐞𝐫 𝐛𝐨𝐭 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐨𝐰𝐧𝐞𝐫 @Itzz_AloneX
 
-Vip 🌟 :
--> Attack Time : 180 (S)
-> After Attack Limit : 5 Min
--> Concurrents Attack : 3
+↳𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄 𝐆𝐀𝐌𝐄𝐒
+✧ 𝐁𝐠𝐦𝐢
+✧ 𝐅𝐫𝐞𝐞 𝐟𝐢𝐫𝐞
+✧ 𝐏𝐮𝐛𝐠 𝐦𝐨𝐛𝐢𝐥𝐞
+✧ 𝐏𝐮𝐛𝐠 𝐥𝐢𝐭𝐞
+✧ 𝐂𝐚𝐥𝐥 𝐨𝐟 𝐝𝐮𝐭𝐲
+═══════↳𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ═══════
+✧ 32 & 64 𝐛𝐢𝐭
+✧ 𝐑𝐨𝐨𝐭 & 𝐍𝐨𝐧 𝐫𝐨𝐨𝐭
+✧ 𝐀𝐧𝐝𝐫𝐨𝐢𝐝 9 𝐭𝐨 15
+✧ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐚𝐥𝐥 𝐝𝐞𝐯𝐢𝐜𝐞
+════════════════════
+💸𝐏𝐑-𝐈𝐂𝐄 𝐋𝐈𝐒𝐭💸
+✧ 𝐃𝐚𝐲 ~ 200 𝐫𝐬
+✧ 𝐖𝐞𝐞𝐤 ~ 350 𝐫𝐬
+✧ 𝐌𝐨𝐧𝐭𝐡 ~ 500 𝐫𝐬
+════════════════════
+🗣 𝐃𝐨𝐧'𝐭 𝐩𝐥𝐚𝐲 𝐛𝐫𝐮𝐭𝐚𝐥
+    𝐏𝐥𝐚𝐲 𝐬𝐚𝐟𝐞 - 𝐢𝐝 𝐬𝐚𝐟𝐞
+════════════════════ 
+𝐅𝐢𝐬𝐭 𝐈 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐭𝐞𝐥𝐥 𝐲𝐨𝐮 𝐝𝐝𝐨𝐬 𝐡𝐚𝐜𝐤 𝐛𝐚𝐬𝐢𝐜𝐚𝐥𝐥𝐲 𝐬𝐞𝐫𝐯𝐞𝐫 𝐟𝐫𝐞𝐞𝐳𝐞 𝐡𝐚𝐜𝐤 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐟𝐫𝐞𝐞𝐳 𝐟𝐮𝐥𝐥 𝐥𝐨𝐛𝐛𝐲 𝐈 𝐜𝐚𝐧 𝐫𝐞𝐜𝐨𝐦𝐦𝐞𝐧𝐝𝐞𝐝 𝐨𝐧𝐥𝐲 𝐠𝐚𝐦𝐞 𝐮𝐬𝐞
 
-Pr-ice List💸 :
-Day-->300 Rs
-Week-->1000 Rs
-Month-->2000 Rs
+█▀ █▀█ █▀█ █
+█▄ █▄█ █▄█ █▄
+════════════════════
+🤖𝐓𝐫𝐲 𝐓𝐨 𝐑𝐮𝐧 𝐓𝐡𝐢𝐬 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 : /help
+════════════════════
+[ 🖇️ 𝐀𝐝𝐦𝐢𝐧 𝐛𝐲 ~ @Itzz_AloneX 🖇️ ]
+[ 🖇️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ~ @AloneXModz 🖇️ ]
 '''
     bot.reply_to(message, response)
 
@@ -376,6 +402,11 @@ def welcome_plan(message):
 💥 /logs : All Users Logs.
 💥 /broadcast : Broadcast a Message.
 💥 /clearlogs : Clear The Logs File.
+════════════════════
+🤖𝐓𝐫𝐲 𝐓𝐨 𝐑𝐮𝐧 𝐓𝐡𝐢𝐬 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 : /help
+════════════════════
+[ 🖇️ 𝐀𝐝𝐦𝐢𝐧 𝐛𝐲 ~ @Itzz_AloneX 🖇️ ]
+[ 🖇️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ~ @AloneXModz 🖇️ ]
 '''
     bot.reply_to(message, response)
 
